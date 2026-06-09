@@ -119,6 +119,60 @@ body {
   cursor: pointer;
 }
 
+.result-section {
+    display: none;
+
+    max-width: 900px;
+    margin: 80px auto;
+
+    background: white;
+
+    padding: 50px;
+
+    border-radius: 24px;
+
+    border: 3px solid black;
+}
+
+.risk {
+    display: inline-block;
+
+    padding: 10px 30px;
+
+    font-weight: bold;
+
+    margin: 25px 0;
+}
+
+.risk-high {
+    background: #f5b1b1;
+}
+
+.risk-medium {
+    background: #f5dcad;
+}
+
+.risk-low {
+    background: #bfe4e6;
+}
+
+.rain-volume {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    font-size: 1.2rem;
+}
+
+.impacts ul {
+    margin-top: 20px;
+
+    width: fit-content;
+
+    text-align: left;
+
+    margin-inline: auto;
+}
+
 @media (max-width: 768px) {
 
   .navbar {
