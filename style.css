@@ -12,7 +12,7 @@ body {
   min-height: 100vh;
 }
 
-/* NAVBAR */
+/* topnav */
 
 .navbar {
   display: flex;
@@ -41,7 +41,7 @@ body {
   font-size: 20px;
 }
 
-/* HERO */
+/* hero */
 
 .hero {
   display: flex;
@@ -74,7 +74,7 @@ body {
   width: 400px;
 }
 
-/* CONSULTA */
+/* busca */
 
 .search-section {
   display: flex;
@@ -172,6 +172,8 @@ body {
 
     margin-inline: auto;
 }
+
+/* responsividade */
 
 @media (max-width: 768px) {
 

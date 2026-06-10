@@ -5,10 +5,8 @@ inputCep.addEventListener("input", () => {
 
     let valor = inputCep.value;
 
-    // Remove tudo que não for número
     valor = valor.replace(/\D/g, "");
 
-    // Adiciona o hífen após os 5 primeiros dígitos
     valor = valor.replace(/^(\d{5})(\d)/, "$1-$2");
 
     inputCep.value = valor;
